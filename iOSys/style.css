@@ -1,0 +1,113 @@
+.card-color {
+  background-color: rgba(22, 228, 49, 0.65) !important;
+  background-size: cover;
+  border: none;
+  transition: all 0.5s ease-in-out !important;
+}
+.card-color:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.card-img {
+  height: 100%;
+  background-image: cover;
+  opacity: 0.3;
+}
+.card-color .card-img:hover {
+  opacity: 0 !important;
+}
+a {
+  color: yellow !important;
+  text-decoration: none !important;
+}
+.opacity {
+  opacity: 0.7 !important;
+  width: 80% !important;
+}
+.card-img-overlay:hover {
+  background: black !important;
+  transition: all 0.5s ease-in-out !important;
+  /* width: 100% !important;
+  margin: 0 auto !important;
+  align-items: center !important ;
+  justify-content: center !important;
+  text-align: center !important; */
+}
+.center {
+  background-color: rgb(37, 37, 37);
+  /* background-image: url("https://cdn2.hubspot.net/hubfs/4196930/Assets%202018/Bitmap.png?t=1517565258082"); */
+  background-repeat: no-repeat;
+  background-size: 30%;
+  color: white;
+  margin: 0rem 3rem;
+  padding: 0 3rem;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  background-position-x: 10px;
+  background-position-y: 125% !important;
+}
+.owl-carousel .owl-item img {
+  width: auto !important;
+  position: relative;
+  margin: 2px;
+  padding: 0;
+  top: 12px;
+  left: -33px;
+}
+.active.center {
+  opacity: 1 !important;
+}
+.active {
+  opacity: 0.3;
+}
+.active .img {
+  opacity: 0;
+}
+.active.center img {
+  opacity: 1 !important;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .active {
+    opacity: 0;
+  }
+  .card-img-overlay {
+    font-size: 12px !important;
+  }
+
+ .active.center {
+  opacity: 1 !important;
+}
+.active {
+  opacity: 0.3;
+}
+.active.center img {
+  opacity: 1 !important;
+}
+}
+@media screen and (max-width: 1024px) {
+}
+.active .img {
+  opacity: 0;
+}
+}
+@media (min-width: 576px) {
+.card-deck {
+    display: block;
+}
+}
+@media screen and (max-width: 990px) {
+  body > div.container.text-center.mt-5 > div:nth-child(n){
+   display: block !important;
+  }
+  .card-deck .card {
+  margin-bottom:2rem !important;
+
+  }
+.card-img-overlay {
+    font-size:large !important;
+  }
+}
+
